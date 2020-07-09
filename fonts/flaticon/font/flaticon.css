@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 02/05/2019 01:22
+  	Creation date: 09/07/2020 04:09
   	*/
 
 @font-face {
@@ -25,15 +25,12 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-style: normal;
-/* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
 }
 
-.flaticon-dinner:before { content: "\f100"; }
-.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before { content: "\f101"; }
-.flaticon-alcohol:before { content: "\f102"; }
-.flaticon-fish:before { content: "\f103"; }
-.flaticon-meat:before { content: "\f104"; }
-.flaticon-cook:before { content: "\f105"; }
+.flaticon-wall-clock:before { content: "\f100"; }
+.flaticon-team:before { content: "\f101"; }
+.flaticon-load:before { content: "\f102"; }
+.flaticon-growth:before { content: "\f103"; }
+.flaticon-hourglass:before { content: "\f104"; }
+.flaticon-clock:before { content: "\f105"; }
