@@ -58,7 +58,7 @@
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" data-toggle="modal" data-target="#contact-modal" href="">Contact Us</a>
               </li>
             </ul>
             
@@ -71,38 +71,17 @@
 
     <!-- Page 1 -->
     <div class="slider-wrap">
-      <section class="home-slider owl-carousel">
-
-
-        <div class="slider-item" style="background-image: url('img/abstract.jpg');">
-          
-          <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-12 text-center col-sm-12 ">
-                <h1 data-aos="fade-up">Powering the Digital Audio Revolution</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et sed quasi.</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
-              </div>
+      <div class="slider-item" style="background-image: url('img/abstract.jpg');">  
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-12 text-center col-sm-12 ">
+              <h1 data-aos="fade-up">Powering the Digital Audio Revolution</h1>
+              <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et sed quasi.</p>
+              <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
             </div>
           </div>
-
         </div>
-
-        <!-- <div class="slider-item" style="background-image: url('img/hero_2.jpg');">
-          <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up">Delecious Food</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et sed quasi.</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
-              </div>
-            </div>
-          </div>
-          
-        </div> -->
-
-      </section>
-    <!-- END slider -->
+      </div>
     </div> 
     
 
@@ -638,3 +617,24 @@ great if your advertising could reach them?</p>
     
   </body>
 </html>
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Let's talk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Call us at +91-7838465188 or email us at <a href="mailto:hello@embereon.com">
+          hello@embereon.com</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
