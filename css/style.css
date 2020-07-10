@@ -1160,6 +1160,7 @@ header {
 .wrap-icon {
   width: 80px;
   height: 80px;
+  margin: auto;
   margin-bottom: 30px;
   border-radius: 50%;
   position: relative;
